@@ -38,7 +38,7 @@
 .aah section{padding:120px 0}
 .aah section h2{font-size:clamp(1.8rem,3.4vw,2.7rem)}
 .aah .two{display:grid;grid-template-columns:.85fr 1fr;gap:80px;align-items:center}
-.aah .portrait{position:relative}
+.aah .portrait{position:relative;overflow:hidden}
 .aah .portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:{{BODY_POS}};transform:{{BODY_TRANSFORM}}}
 .aah .portrait::after{content:"";position:absolute;inset:14px;border:1px solid rgba({{CREAM_RGB}},.7);pointer-events:none}
 .aah .bio h2{margin-bottom:28px}

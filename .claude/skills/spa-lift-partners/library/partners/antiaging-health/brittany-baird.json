@@ -1,0 +1,31 @@
+{
+  "slug": "brittanybaird",
+  "partner_name": "Brittany Baird",
+  "partner_first": "Brittany",
+  "ig_handle": "@shewolffitnessmi",
+  "ig_url": "https://www.instagram.com/shewolffitnessmi",
+  "audience": "Women ages 18-65, primarily mid-life (30-50). Strength training, fitness, group classes, community-based training, Pilates/mat sculpt, fit model, wellness, bikini and figure bodybuilding. Audience info from Sean (secondhand). Women only, so gendered copy is fine.",
+  "hero_img": "https://files.leadconnectorhq.com/file/6b0473b5d45fc20d775057ee/4f533d28-7b6d-4965-a45c-35ef96afb95d.png",
+  "body_img": "",
+  "hero_mirror": true,
+  "hero_pos": "50% 14%",
+  "hero_pos_mobile": "50% 14%",
+  "body_pos": "50% 18%",
+  "h1_line1": "You show up for the work.",
+  "h1_line2": "Your health deserves the same discipline.",
+  "hero_lead": "You train with intention: the lifts, the classes, the community. Peptide and hormone therapy should be just as deliberate. A licensed physician, a protocol built for you, delivered to your door. Brittany sent you here for a reason. Your part is one 15-minute consult.",
+  "next_eyebrow": "For women who train with intention",
+  "next_h2": "The same discipline, applied to how you feel",
+  "cards": [
+    {"small": "How you train", "title": "Recovery", "text": "Support how your body repairs between sessions."},
+    {"small": "How you feel", "title": "Energy", "text": "A plan built around your sleep, stress and schedule."},
+    {"small": "How you balance", "title": "Hormones", "text": "Your physician reviews your symptoms, history and testing to see whether hormone therapy makes sense."}
+  ],
+  "bio_h2": "Strength, education and confidence.",
+  "bio_paragraphs": [
+    "Brittany Baird is the founder and owner of SheWolf Fitness, a women's fitness community dedicated to empowering women through strength, education, and confidence. She holds a Master of Science in Clinical and Translational Research from George Washington University, bringing a strong foundation in science, human physiology, and evidence-based practices to her work.",
+    "With a deep passion for women's health and fitness, Brittany combines her clinical background with her experience as a lifestyle and competitive bodybuilding coach to help women transform not only their physiques, but their relationships with their bodies. As a competitive bodybuilder herself, she understands firsthand the discipline, resilience, and dedication required to achieve meaningful results.",
+    "Through SheWolf, Brittany is committed to bridging the gap between science and fitness while creating an empowering environment where women can discover their strength, challenge their limits, and thrive."
+  ],
+  "pull": "Bridging the gap between science and fitness."
+}
