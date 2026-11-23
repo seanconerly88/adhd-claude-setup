@@ -1,0 +1,48 @@
+{
+  "slug": "hotworx",
+  "partner_type": "business",
+  "partner_name": "HOTWORX Goodlettsville",
+  "partner_first": "HOTWORX Goodlettsville",
+  "ig_handle": "@hotworxgoodlettsville",
+  "ig_url": "https://www.instagram.com/hotworxgoodlettsville",
+  "audience": "Busy members juggling schedules and responsibilities who want to prioritize health without adding another stressful commitment. Top three priorities: health and wellness, life-commitment balance, energy/productivity. Gender and age not specified, so copy is neutral. Source: the studio owner, via Sean.",
+  "hero_img": "https://files.leadconnectorhq.com/file/6b04834f306ac23751b3c591/hotworx-goodlettsville-1.jpg",
+  "body_img": "https://files.leadconnectorhq.com/file/6b0482b1306ac23751b3ae15/9146cc6b-4749-457c-9a02-ea964d2f17c6.png",
+  "hero_mirror": false,
+  "hero_pos": "50% 50%",
+  "hero_pos_mobile": "50% 50%",
+  "body_fit": "contain",
+  "body_bg": "#FFFFFF",
+  "body_pad": "14%",
+  "body_pos": "50% 50%",
+  "body_frame": "rgba(14,14,14,.16)",
+  "h1_line1": "Your schedule is full.",
+  "h1_line2": "Your health plan shouldn't add to it.",
+  "hero_lead": "You already found a workout that fits your life. Peptide and hormone therapy can fit it too: a licensed physician, a protocol built for you, delivered to your door. HOTWORX Goodlettsville sent you here for a reason. Your part is one 15-minute consult.",
+  "next_eyebrow": "For people with a full schedule",
+  "next_h2": "Health that fits the life you already have",
+  "cards": [
+    {
+      "small": "How you show up",
+      "title": "Energy",
+      "text": "A plan built around your sleep, stress and schedule."
+    },
+    {
+      "small": "Your time",
+      "title": "Simplicity",
+      "text": "One short consult, one physician visit, then delivery to your door."
+    },
+    {
+      "small": "Your health",
+      "title": "Guidance",
+      "text": "A licensed physician reviews your history and builds a protocol around you."
+    }
+  ],
+  "bio_h2": "More than a gym. A community.",
+  "bio_paragraphs": [
+    "HOTWORX Goodlettsville is a locally owned and family-operated fitness studio proudly serving our community since 2022. We combine infrared heat with virtually instructed workouts to offer a unique, convenient fitness experience with 24/7 access.",
+    "As a family-run business, we're passionate about creating a welcoming, supportive environment where every member feels valued, encouraged, and part of something bigger."
+  ],
+  "pull": "We're more than just a gym. We're a community.",
+  "body_ratio": "1/1"
+}

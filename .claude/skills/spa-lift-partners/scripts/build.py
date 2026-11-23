@@ -44,7 +44,7 @@ def main():
       'BRAND_A': spa['brand_a'], 'BRAND_B': spa['brand_b'], 'SPA_NAME': spa['spa_name'], 'CITY': spa['city'],
       'PHONE_DISPLAY': spa['phone_display'], 'PHONE_TEL': spa['phone_tel'], 'CALENDAR_URL': spa['calendar_url'],
       'CONSULT_MIN': str(n), 'STAT3_NUM': spa['stat3_num'], 'STAT3_LABEL': spa['stat3_label'], 'STEP3_TEXT': spa['step3_text'],
-      'DISCLOSURE': spa['disclosure_template'].format(partner=p['partner_name'], spa=spa['spa_name']),
+      'DISCLOSURE': p.get('disclosure') or spa['disclosure_template'].format(partner=p['partner_name'], spa=spa['spa_name']),
       'PARTNER_NAME': p['partner_name'], 'IG_HANDLE': p['ig_handle'], 'IG_URL': p['ig_url'],
       'H1_LINE1': p['h1_line1'], 'H1_LINE2': p['h1_line2'], 'HERO_LEAD': p['hero_lead'],
       'NEXT_EYEBROW': p['next_eyebrow'], 'NEXT_H2': p['next_h2'], 'BIO_H2': p['bio_h2'], 'PULL': p['pull'],
@@ -60,7 +60,9 @@ def main():
       'FONT_HEAD': f['head'], 'FONT_BODY': f['body'],
       'HERO_POS': p.get('hero_pos', '50% 22%'), 'HERO_POS_MOBILE': p.get('hero_pos_mobile', '50% 20%'),
       'HERO_TRANSFORM': 'scaleX(-1)' if p.get('hero_mirror', True) else 'none',
-      'BODY_POS': p.get('body_pos', '50% 18%'), 'BODY_TRANSFORM': bt})
+      'BODY_POS': p.get('body_pos', '50% 18%'), 'BODY_TRANSFORM': bt,
+      'BODY_RATIO': p.get('body_ratio', '4/5'), 'BODY_FIT': p.get('body_fit', 'cover'), 'BODY_BG': p.get('body_bg', 'transparent'), 'BODY_PAD': p.get('body_pad', '0'),
+      'BODY_FRAME': p.get('body_frame', f"rgba({rgb(c['cream'])},.7)")})
 
     def fill(s, m):
         return re.sub(r'\{\{(\w+)\}\}', lambda x: m[x.group(1)] if x.group(1) in m else x.group(0), s)
@@ -105,6 +107,8 @@ def main():
     loc = spa['seo']['locations']; sl = p['slug']
     title = f"{p['partner_name']} x {spa['spa_name']} | Peptides & HRT"
     desc = f"Welcomed by {p['partner_name']}. {spa['seo']['offer_phrase']} from {spa['spa_name']}, delivered to your door. Start with a free {n}-minute consult."
+    if len(desc) > 160:   # long partner names: drop the delivery phrase
+        desc = f"Welcomed by {p['partner_name']}. {spa['seo']['offer_phrase']} from {spa['spa_name']}. Start with a free {n}-minute consult."
     share_desc = f"{p['partner_first']} sent you. {spa['seo']['offer_phrase']}, delivered to your door. Your part is one free {n}-minute consult."
     kw = ', '.join([f'peptide therapy {l}' for l in loc[:2]] + [f'hormone replacement therapy {loc[0]}', 'physician-guided peptides', spa['spa_name'], p['partner_name']])
     if len(title) > 60: errs.append(f'SEO title is {len(title)} chars (>60)')
