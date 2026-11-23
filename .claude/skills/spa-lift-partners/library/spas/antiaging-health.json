@@ -1,0 +1,48 @@
+{
+  "slug": "antiaging-health",
+  "spa_name": "AntiAging Health",
+  "brand_a": "AntiAging",
+  "brand_b": "Health",
+  "parent_spa": "AntiAging Medspa",
+  "city": "Goodlettsville, TN",
+  "phone_display": "(629) 240-7780",
+  "phone_tel": "+16292407780",
+  "calendar_url": "https://api.leadconnectorhq.com/widget/bookings/antiaging-calendar",
+  "source_url_field": "source_url",
+  "consult_min": 15,
+  "stat3_num": "48 hrs",
+  "stat3_label": "To your door",
+  "step3_text": "Peptides typically arrive within 48 hours of approval, with clear instructions and a team to call if you have questions.",
+  "disclosure_template": "Paid partnership: {partner} is a partner of {spa}.",
+  "colors": {
+    "ink": "#0E0E0E",
+    "char": "#2A2927",
+    "cream": "#FAF9F3",
+    "sand": "#DDD5C9",
+    "taupe": "#CFC6BA",
+    "bronze": "#8C7B66",
+    "text": "#58595B",
+    "alt": "#F1EEE6"
+  },
+  "fonts": {
+    "head": "Marcellus",
+    "body": "Manrope",
+    "url": "https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;600;700&display=swap"
+  },
+  "seo": {
+    "locations": ["Nashville", "Goodlettsville TN", "Tennessee"],
+    "offer_phrase": "Physician-guided peptide and hormone therapy"
+  },
+  "sources": [
+    "https://antiagingmedspa.com/",
+    "https://peptides.antiagingmedspa.com/home"
+  ],
+  "verified": {
+    "consult_min": "confirmed by Sean (15 min; calendar set up on his side)",
+    "calendar_url": "confirmed by Sean; same calendar for every partner, attribution via source_url",
+    "source_url_field": "Sean added contact field Source URL ({{contact.source_url}}) as a hidden field on the calendar",
+    "phone": "from the peptides site, NOT confirmed by Sean",
+    "stat3_48hrs": "from the peptides site, NOT confirmed by Sean",
+    "colors_fonts": "from antiagingmedspa.com and peptides.antiagingmedspa.com (Marcellus/Manrope, black/cream/taupe)"
+  }
+}

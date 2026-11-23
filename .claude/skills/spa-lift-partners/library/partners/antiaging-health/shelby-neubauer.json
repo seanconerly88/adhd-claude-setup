@@ -1,0 +1,31 @@
+{
+  "slug": "shelby",
+  "partner_name": "Shelby Neubauer",
+  "partner_first": "Shelby",
+  "ig_handle": "@shelbyneubauer",
+  "ig_url": "https://www.instagram.com/shelbyneubauer",
+  "audience": "About evenly split men and women, mostly ages 25-45. Women: fashion, wellness, girly things. Men: workouts, wellness, humor. NOT a Botox/medspa audience.",
+  "hero_img": "https://files.leadconnectorhq.com/file/6b007ff0565ed309afa421a7/img-0106-2.jpeg",
+  "body_img": "https://files.leadconnectorhq.com/file/6b007ff08b5100b36a2da7e0/img-0106.jpeg",
+  "hero_mirror": true,
+  "hero_pos": "50% 22%",
+  "hero_pos_mobile": "50% 20%",
+  "body_pos": "50% 18%",
+  "body_mirror": false,
+  "h1_line1": "Looking the part is half of it.",
+  "h1_line2": "Feeling it is the rest.",
+  "hero_lead": "You're particular about everything: what you wear, how you train, who you trust. Peptide and hormone therapy deserves the same standard. A licensed physician, a protocol built for you, delivered to your door. Shelby sent you here for a reason. Your part is one 15-minute consult.",
+  "next_eyebrow": "For people with standards",
+  "next_h2": "The same standard, applied to how you look and feel",
+  "cards": [
+    {"small": "How you look", "title": "Skin", "text": "Support firmness and texture from the inside."},
+    {"small": "How you feel", "title": "Energy", "text": "A plan built around your sleep, stress and schedule."},
+    {"small": "How you bounce back", "title": "Recovery", "text": "Support how your body repairs, after hard workouts and long weeks."}
+  ],
+  "bio_h2": "Your type-A friend with expensive taste.",
+  "bio_paragraphs": [
+    "Shelby Neubauer is the founder of Haus di Lusso, a luxury lifestyle management company that oversees private clients' households and handles the logistics of their day-to-day lives. She's also a Nashville-based fashion and lifestyle creator. Between client work and content shoots, her calendar fills up fast. Staying healthy and strong isn't something she wants to put off until life slows down.",
+    "Shelby calls herself \"your type-A friend with expensive taste,\" and wellness brings out the type-A side. From blood panels to peptides, she wants to know who's behind it and what the research actually says. That means looking for reputable labs for bloodwork and licensed pharmacies for prescriptions."
+  ],
+  "pull": "When it comes to your health, you deserve to know exactly who you're trusting."
+}
